@@ -14,8 +14,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Customer customer1 = new Customer(1, "Mahmut Can", "Çankaya", LocalDate.of(1999, 8, 25),"10384800770");
-		System.out.println("Yeni Müþteri : "+customer1.getFirstName());
+		Customer customer1 = new Customer(1, "adiniz", "soyadiniz", LocalDate.of(1111, 1, 1),"11111111111");
+		System.out.println("Yeni MÃ¼Ã¾teri : "+customer1.getFirstName());
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapter());
 		customerManager.save(customer1);
