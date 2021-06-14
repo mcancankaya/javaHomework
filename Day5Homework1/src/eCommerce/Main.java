@@ -13,9 +13,9 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("1 - Giriş yap \n2 - Kayıt Ol");
+		System.out.println("1 - GiriÃ¾ yap \n2 - KayÃ½t Ol");
 		
-		System.out.println("Yapmak istediğin işlemi seç!");
+		System.out.println("Yapmak istediÃ°in iÃ¾lemi seÃ§!");
 		
 		int selection = scanner.nextInt();
 		if(selection == 1) {
@@ -24,7 +24,7 @@ public class Main {
 			System.out.println("1 - Google \n2 - Mail & Password");
 			
 			Scanner sc = new Scanner(System.in);
-			System.out.println("Hangisiyle giriş yapacaksın? ");
+			System.out.println("Hangisiyle giriÃ¾ yapacaksÃ½n? ");
 			int selection2 = sc.nextInt();
 			
 			if(selection2 == 1) {
@@ -39,9 +39,9 @@ public class Main {
 				userManager.login(user2);
 			}else if(selection2 == 2) {
 				User user = new User();
-				user.seteMail("cakmakkadriye45@gmail.com");
+				user.seteMail("mccankaya45@hotmail.com");
 				User user2 = new User();
-				user2.seteMail("cakmakkadriye45@gmail.com");
+				user2.seteMail("mccankaya45@hotmail.com");
 				user2.setPassword("123456");
 				
 				ArrayList<User> users = new ArrayList<>();
